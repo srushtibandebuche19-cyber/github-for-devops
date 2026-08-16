@@ -1,0 +1,13 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Day 22 Notes</title>
+</head>
+<body>
+  <h2>Day 22: Secure SSH Access</h2>
+  <p><b>Steps:</b> Launch EC2 → no key → gen id_rsa → fix SG → EC2 Connect → sudo root → add pubkey → test SSH → success.</p>
+  <p><b>Difficulties:</b> Missing .pem, no key pair, SG error, permission denied, path confusion.</p>
+  <p><b>Outcome:</b> ✔ Passwordless SSH ✔ Root login ✔ Secure setup.</p>
+</body>
+</html>
